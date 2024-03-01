@@ -6,18 +6,16 @@ import com.idstar.trainingkaryawan.model.request.UpdateKaryawanRq;
 import com.idstar.trainingkaryawan.model.response.GeneralRs;
 import com.idstar.trainingkaryawan.model.response.KaryawanRs;
 import com.idstar.trainingkaryawan.service.KaryawanService;
-import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @Slf4j
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("{{host}}/v1/idstar/karyawan")
+@RequestMapping("api/v1/idstar/karyawan")
 public class KaryawanController {
 
     private final KaryawanService karyawanService;

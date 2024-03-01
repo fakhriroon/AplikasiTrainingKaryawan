@@ -12,7 +12,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/v1/rekenings")
+@RequestMapping("/api/v1/idstar/rekening")
 @RequiredArgsConstructor
 public class RekeningController {
     private final RekeningService rekeningService;

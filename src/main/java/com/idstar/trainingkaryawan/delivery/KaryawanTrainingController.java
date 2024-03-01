@@ -12,7 +12,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/v1/karyawan-trainings")
+@RequestMapping("/api/v1/idstar/karyawan-training")
 @RequiredArgsConstructor
 public class KaryawanTrainingController {
     private final KaryawanTrainingService karyawanTrainingService;

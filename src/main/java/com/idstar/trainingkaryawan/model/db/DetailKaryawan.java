@@ -19,10 +19,10 @@ public class DetailKaryawan extends Timestamp implements Serializable {
     @Column(name = "id")
     private Integer id;
 
-    @Column(name = "id")
+    @Column(name = "nik")
     private String nik;
 
-    @Column(name = "id")
+    @Column(name = "npwp")
     private String npwp;
 
     @OneToOne(mappedBy = "detailKaryawan", cascade = CascadeType.ALL)
